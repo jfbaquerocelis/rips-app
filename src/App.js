@@ -1,10 +1,10 @@
 import React from 'react';
-import { Provider } from "react-redux";
+import { Provider } from 'react-redux';
 import { Layout } from 'antd';
-import { Route, Switch } from "react-router";
-import { ConnectedRouter } from "connected-react-router";
+import { Route, Switch } from 'react-router';
+import { ConnectedRouter } from 'connected-react-router';
 
-import { store, history } from "./redux";
+import { store, history } from './redux';
 
 import Navbar from './components/Navbar';
 
@@ -22,7 +22,7 @@ function App() {
           </Header>
           <Content>
             <Switch>
-              {/* <Route></Route> */}
+              <Route />
             </Switch>
           </Content>
         </Layout>

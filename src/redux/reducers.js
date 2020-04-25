@@ -1,7 +1,7 @@
-import { combineReducers } from "redux";
-import { reducer as form } from "redux-form";
-import { connectRouter } from "connected-react-router";
-import { createBrowserHistory } from "history";
+import { combineReducers } from 'redux';
+import { reducer as form } from 'redux-form';
+import { connectRouter } from 'connected-react-router';
+import { createBrowserHistory } from 'history';
 
 const history = createBrowserHistory();
 
@@ -10,4 +10,4 @@ const rootReducer = combineReducers({
   form,
 });
 
-export default rootReducer
+export default rootReducer;
